@@ -18,7 +18,7 @@ class CardGame:
 
 
   def check_for_ace(self, card):
-    if card.value = 1:
+    if card.value = 1: # needs to be ==, not =
       return True
     else          # improperly formatted, needs a colon
       return False
@@ -26,14 +26,14 @@ class CardGame:
 
   dif highest_card(self, card1 card2):   # def/dif error, missing comma in variable list
   if card1.value > card2.value:
-    return card
+    return card    # should be specific card, card1, not card
   else:
     return card2
   
 
 
-def cards_total(self, cards):  #it seems to be a variable, but 'total' is undefined
-  total
+def cards_total(self, cards):  
+  total   #it seems to be a variable, but 'total' is undefined
   for card in cards:
     total += card.value # card for cards - 'cards' was passed to function, card is iteration of cards
     return "You have a total of" + total  #improperly formatted f string 
